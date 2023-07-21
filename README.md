@@ -80,9 +80,13 @@ Implement a new function which **MUST** meet the following conditions:
 
 Given we pass in the **number 5**, we should receive the following **array**:
 
-`[1, 2, "Fizz", 4, "Buzz"]`;
+```javascript
+const expectedResult = [1, 2, "Fizz", 4, "Buzz"]
+```
 
-> Use the same approach as exercise 1
+## Approach
+
+- Use the same approach as exercise 1
 
 # Exercise 3
 
