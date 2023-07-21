@@ -4,6 +4,17 @@ A mob/pair programming exercise to give an intro to the practice.
 
 This exercise is great for all levels to practice Mob/Pair Programming using a common code kata.
 
+# Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+    - [Scripts](#scripts)
+    - [Files of Interest](#files-of-interest)
+- [Exercise 1](#exercise-1)
+- [Exercise 2](#exercise-2)
+- [Exercise 3](#exercise-3)
+- [Beyond](#beyond)
+
 # Prerequisites
 1. Node version `14.15^`, `16.10^` or `18.0^` and A package manager like NPM or Yarn
     - Both can be handled together with a version manager like [nvm](https://github.com/nvm-sh/nvm)
