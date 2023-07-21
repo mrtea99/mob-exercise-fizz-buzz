@@ -1,0 +1,10 @@
+node_modules
+**/*.*
+!**/*.js
+!**/*.jsx
+!**/*.ts
+!**/*.tsx
+!**/*.css
+!**/*.html
+!**/*.json
+**/package-lock.json
