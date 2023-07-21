@@ -24,27 +24,30 @@ This exercise is great for all levels to practice Mob/Pair Programming using a c
 # Getting started
 
 1. Fork or download the repo
-2. Run `npm install` or `yarn install`
+2. Run `npm run install` or `yarn install`
 3. Start with [Exercise 1](#exercise-1)
 
 ## Scripts
 
 We'll be using these scripts whilst working through the exercises.
 
-| Name | Terminal Command            | Description                                                          |
-| ---- | --------------------- | -------------------------------------------------------------------- |
-| `test` | `npm run test` or `yarn test` | Runs the test file using [jest](https://jestjs.io/docs/getting-started)            |
-| `format` | `npm run format` or `yarn format` | Formats working files using [prettier](https://prettier.io/docs/en/index.html)            |
+| Name      | Terminal Command                  | Description                                                                    |
+| --------- | --------------------------------- | ------------------------------------------------------------------------------ |
+| `test`    | `npm run test` or `yarn test`     | Runs the test file using [jest](https://jestjs.io/docs/getting-started)        |
+| `format`  | `npm run format` or `yarn format` | Formats working files using [prettier](https://prettier.io/docs/en/index.html) |
+| `start`   | `npm run start` or `yarn start`   | Starts a development server with [Parcel](https://parceljs.org/)               |
+| `build`   | `npm run build` or `yarn build`   | Runs [Parcel](https://parceljs.org/) build command                             |
+| `clean`   | `npm run clean` or `yarn clean`   | Removes `dist` and `.parcel-cache` directories                                 |
 
 ## Files of interest
 
-These are the main working files. You won't **NEED** to work from any other file but may choose to do so as you progress past [Exercise 3](#exercise-3)
+These are the main working files located in `./src`. You won't **NEED** to work from any other file but may choose to do so as you progress past [Exercise 3](#exercise-3)
 
 | Filename              | Description                                                          |
 | --------------------- | -------------------------------------------------------------------- |
-| `./fizz-buzz.test.js` | Where we will write our initial tests and production code            |
-| `./fizz-buzz.js`      | Where we will move our production code for [Exercise 3](#exercise-3) |
-| `./index.html`        | For the UI used in [Exercise 3](#exercise-3)                         |
+| `fizz-buzz.test.js`   | Where we will write our initial tests and production code            |
+| `index.html`          | For the UI used in [Exercise 3](#exercise-3)                         |
+| `app.js`              | Where we will write our client js for [Exercise 3](#exercise-3)      |
 
 > You can use google as much as you want. It is advised to avoid looking for complete solutions to the exercises. If you do however, why not try to improve the found solution?
 
@@ -102,11 +105,12 @@ We want to achieve the following goals:
 
 ## Approach
 
-1. If you haven't already, move your production code from `fizz-buzz.test.js` into `fizz-buzz.js`
-2. Your `index.html` already makes use of the `fizz-buzz.js` script, so all **js** code can live in there
-3. Open the `index.html` file in your **browser** so you can play with the UI
-    - Make use of the **developer console** in your **browser**, and be sure to **hard reload** between changes
-4. You **SHOULD** still test new units but are not expected to test the front-end
+1. If you haven't already, move your production code from `fizz-buzz.test.js` into it's own file such as `fizz-buzz.js`
+2. Your `index.html` already makes use of the `app.js` script, so all **js** code can live in there
+3. Run `npm run start` or `yarn start` script
+4. Navigate to `http://localhost:1234/` in your **browser**
+    - Make use of the **developer console** in your **browser**
+5. You **SHOULD** still test new units but are not expected to test the front-end
 
 # Beyond
 
