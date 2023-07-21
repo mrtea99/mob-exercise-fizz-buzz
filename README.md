@@ -6,7 +6,7 @@ This exercise is great for all levels to practice Mob/Pair Programming using a c
 
 # Prerequisites
 1. Node version `14.15^`, `16.10^` or `18.0^` and A package manager like NPM or Yarn
-  a. Both can be handled together with a version manager like [nvm](https://github.com/nvm-sh/nvm)
+    - Both can be handled together with a version manager like [nvm](https://github.com/nvm-sh/nvm)
 3. A text editor, preferably an IDE such as [VSCode](https://code.visualstudio.com/)
 4. [Git](https://git-scm.com/)
 
@@ -82,7 +82,7 @@ We have a starter `index.html` file containing **some** of the elements we'll ne
 We want to achieve the following goals:
 
 - When we type a **number** into the **input** and **click run** it should print out the **results** either comma delimited or a result per line within the provided **results** element
-  a. Has an id **attribute** of `results`
+    - Has an id **attribute** of `results`
 - When we **click run** again, the previous **results** are **cleared** and the new ones are added
 
 ## Approach
@@ -90,7 +90,7 @@ We want to achieve the following goals:
 1. If you haven't already, move your production code from `fizz-buzz.test.js` into `fizz-buzz.js`
 2. Your `index.html` already makes use of the `fizz-buzz.js` script, so all **js** code can live in there
 3. Open the `index.html` file in your **browser** so you can play with the UI
-  a. Make use of the **developer console** in your **browser**, and be sure to **hard reload** between changes
+    - Make use of the **developer console** in your **browser**, and be sure to **hard reload** between changes
 4. You **SHOULD** still test new units but are not expected to test the front-end
 
 # Beyond
