@@ -31,13 +31,13 @@ This exercise is great for all levels to practice Mob/Pair Programming using a c
 
 We'll be using these scripts whilst working through the exercises.
 
-| Name      | Terminal Command                  | Description                                                                    |
-| --------- | --------------------------------- | ------------------------------------------------------------------------------ |
-| `test`    | `npm run test` or `yarn test`     | Runs the test file using [jest](https://jestjs.io/docs/getting-started)        |
-| `format`  | `npm run format` or `yarn format` | Formats working files using [prettier](https://prettier.io/docs/en/index.html) |
-| `start`   | `npm run start` or `yarn start`   | Starts a development server with [Parcel](https://parceljs.org/)               |
-| `build`   | `npm run build` or `yarn build`   | Runs [Parcel](https://parceljs.org/) build command                             |
-| `clean`   | `npm run clean` or `yarn clean`   | Removes `dist` and `.parcel-cache` directories                                 |
+| Name      | Terminal Command                  | Description                                                                       |
+| --------- | --------------------------------- | --------------------------------------------------------------------------------- |
+| `test`    | `npm run test` or `yarn test`     | Runs the test file(s) using [jest](https://jestjs.io/docs/getting-started)        |
+| `format`  | `npm run format` or `yarn format` | Formats working files using [prettier](https://prettier.io/docs/en/index.html)    |
+| `start`   | `npm run start` or `yarn start`   | Starts a development server with [Parcel](https://parceljs.org/)                  |
+| `build`   | `npm run build` or `yarn build`   | Runs [Parcel](https://parceljs.org/) build command                                |
+| `clean`   | `npm run clean` or `yarn clean`   | Removes `dist` and `.parcel-cache` directories                                    |
 
 ## Files of interest
 
@@ -65,9 +65,11 @@ Our function **MUST** meet the following conditions:
 
 ## Approach
 
-1. Write a **failing** test for one of the conditions
-2. Update your Fizz Buzz function to make the test **pass**
-3. **Repeat** above until all test conditions are implemented and passing
+1. Open `fizz-buzz.test.js`
+    - We'll **ONLY** be using this file for the first exercise
+2. Write a **failing** test for one of the conditions
+3. Update your Fizz Buzz function to make the test **pass**
+4. **Repeat** steps **2** and **3** until all test conditions are implemented and **passing**
 
 # Exercise 2
 
@@ -84,41 +86,41 @@ Implement a new function which **MUST** meet the following conditions:
 Given we pass in the **number 5**, we should receive the following **array**:
 
 ```javascript
-const expectedResult = [1, 2, "Fizz", 4, "Buzz"]
+fizzBuzzArray(5); // [1, 2, "Fizz", 4, "Buzz"]
 ```
 
 ## Approach
 
-- Use the same approach as exercise 1
+- Use the same approach as [Exercise 1](#exercise-1)
 
 # Exercise 3
 
-## Add functionality to a UI using our new function
+## Add functionality to a UI
 
 We have a starter `index.html` file containing **some** of the elements we'll need for this exercise.
 
 We want to achieve the following goals:
 
-- When we type a **number** into the **input** and **click run** it should print out the **results** either comma delimited or a result per line within the provided **results** element
-    - Has an id **attribute** of `results`
-- When we **click run** again, the previous **results** are **cleared** and the new ones are added
+- When we type a **number** into the **input** and **click run** it should print out the **results** either comma delimited or a result per line within the provided **results** element as a **string**
+- When we **click run** again, the previous **results** are **replaced** with the new ones
 
 ## Approach
 
-1. If you haven't already, move your production code from `fizz-buzz.test.js` into it's own file such as `fizz-buzz.js`
-2. Your `index.html` already makes use of the `app.js` script, so all **js** code can live in there
+1. If you haven't already, **extract** your production code from `fizz-buzz.test.js` into it's own file such as `fizz-buzz.js`
+    - Note your tests **MUST** still pass
+2. Open `index.html` and `app.js`
 3. Run `npm run start` or `yarn start` script
 4. Navigate to `http://localhost:1234/` in your **browser**
-    - Make use of the **developer console** in your **browser**
-5. You **SHOULD** still test new units but are not expected to test the front-end
+    - Be sure to make use of the **developer console** in your **browser**
+5. You **SHOULD** still test new units but are not expected to test the frontend yet
 
 # Beyond
 
-Try implementing some improvements using the mob. Here are some **examples** of things you could add:
+Try implementing some more features using the mob. Here are some **examples** of things you could add:
 
 - A reset button which clears the input and results
 - Print out the results character by character to simulate typing
 - Add styles to the UI
 - Refactor the app using something like React
 - Implement typescript
-- Implement test for the frontend
+- Implement tests for the frontend
