@@ -41,7 +41,7 @@ We'll be using these scripts whilst working through the exercises.
 
 ## Files of interest
 
-These are the main working files located in `./src`. You won't **NEED** to work from any other file but may choose to do so as you progress past [Exercise 3](#exercise-3)
+These are the main working files located in `./src`. You won't ***NEED*** to work from any other file but may choose to do so as you progress past [Exercise 3](#exercise-3)
 
 | Filename              | Description                                                          |
 | --------------------- | -------------------------------------------------------------------- |
@@ -55,33 +55,33 @@ These are the main working files located in `./src`. You won't **NEED** to work 
 
 ## Implement Fizz Buzz function
 
-Our function **MUST** meet the following conditions:
+Our function ***MUST*** meet the following conditions:
 
 - Receives a `number` as an argument
 - Returns `"Fizz"` if the `number` is divisible by `3`
 - Returns `"Buzz"` if the `number` is divisible by `5`
-- Returns `"FizzBuzz"` if the `number` is divisible by `3` **AND** `5`
-- Returns the given `number` if it is not divisible by `3` **OR** `5`
+- Returns `"FizzBuzz"` if the `number` is divisible by `3` ***AND*** `5`
+- Returns the given `number` if it is not divisible by `3` ***OR*** `5`
 
 ## Approach
 
 1. Open `fizz-buzz.test.js`
-    - We'll **ONLY** be using this file for the first exercise
-2. Write a **failing** test for one of the conditions
-3. Update your Fizz Buzz function to make the test **pass**
-4. **Repeat** steps **2** and **3** until all test conditions are implemented and **passing**
+    - We'll ***ONLY*** be using this file for the first exercise
+2. Write a ***failing*** test for one of the conditions
+3. Update your Fizz Buzz function to make the test ***pass***
+4. ***Repeat*** steps ***2*** and ***3*** until all test conditions are implemented and ***passing***
 
 # Exercise 2
 
 ## Fizz Buzz in an array
 
-Implement a new function which **MUST** meet the following conditions:
+Implement a new function which ***MUST*** meet the following conditions:
 
-- Receive a `number` to **count** up to
-- For each `number` starting from `1` up to the given **count**, call our Fizz Buzz function and **add** the result to an `array`
+- Receive a `number` to ***count*** up to
+- For each `number` starting from `1` up to the given ***count***, call our Fizz Buzz function and ***add*** the result to an `array`
 - Return the `array`
 
-**For example:**
+***For example:***
 
 Given we pass in the `number` `5`, we should receive the following `array`:
 
@@ -97,26 +97,26 @@ fizzBuzzArray(5); // [1, 2, "Fizz", 4, "Buzz"]
 
 ## Add functionality to a UI
 
-We have a starter `index.html` file containing **some** of the elements we'll need for this exercise.
+We have a starter `index.html` file containing ***some*** of the elements we'll need for this exercise.
 
 We want to achieve the following goals:
 
-- When we type a `number` into the `<input />` and **click run** it should print out the **results** either comma delimited or a result per line within the provided **results** element as a `string`
-- When we **click run** again, the previous **results** are **replaced** with the new ones
+- When we type a `number` into the `<input />` and ***click run*** it should print out the ***results*** either comma delimited or a result per line within the provided ***results*** element as a `string`
+- When we ***click run*** again, the previous ***results*** are ***replaced*** with the new ones
 
 ## Approach
 
-1. If you haven't already, **extract** your production code from `fizz-buzz.test.js` into it's own file such as `fizz-buzz.js`
-    - Note your tests **MUST** still pass
+1. If you haven't already, ***extract*** your production code from `fizz-buzz.test.js` into it's own file such as `fizz-buzz.js`
+    - Note your tests ***MUST*** still pass
 2. Open `index.html` and `app.js`
 3. Run `npm run start` or `yarn start` script
-4. Navigate to `http://localhost:1234/` in your **browser**
-    - Be sure to make use of the **developer console** in your **browser**
-5. You **SHOULD** still test new units but are not expected to test the frontend yet
+4. Navigate to `http://localhost:1234/` in your ***browser***
+    - Be sure to make use of the ***developer console*** in your ***browser***
+5. You ***SHOULD*** still test new units but are not expected to test the frontend yet
 
 # Beyond
 
-Try implementing some more features using the mob. Here are some **examples** of things you could add:
+Try implementing some more features using the mob. Here are some ***examples*** of things you could add:
 
 - A reset button which clears the input and results
 - Print out the results character by character to simulate typing
