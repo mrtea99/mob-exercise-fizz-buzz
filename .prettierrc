@@ -2,21 +2,11 @@
   "arrowParens": "always",
   "bracketSameLine": false,
   "bracketSpacing": true,
-  "embeddedLanguageFormatting": "off",
   "endOfLine": "lf",
-  "proseWrap": "always",
   "semi": true,
   "singleAttributePerLine": false,
   "singleQuote": true,
   "tabWidth": 2,
   "trailingComma": "none",
-  "useTabs": false,
-  "overrides": [
-    {
-      "files": ["*.ts","*.tsx"],
-      "options": {
-        "parser": "typescript"
-      }
-    }
-  ]
+  "useTabs": false
 }
