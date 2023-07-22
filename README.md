@@ -57,11 +57,11 @@ These are the main working files located in `./src`. You won't **NEED** to work 
 
 Our function **MUST** meet the following conditions:
 
-- Receives a **number** as an argument
-- Returns "**Fizz**" if the **number** is divisible by **3**
-- Returns "**Buzz**" if the **number** is divisible by **5**
-- Returns "**FizzBuzz**" if the **number** is divisible by **3 AND 5**
-- Returns the given **number** if it is not divisible by **3 OR 5**
+- Receives a `number` as an argument
+- Returns `"Fizz"` if the `number` is divisible by `3`
+- Returns `"Buzz"` if the `number` is divisible by `5`
+- Returns `"FizzBuzz"` if the `number` is divisible by `3` **AND** `5`
+- Returns the given `number` if it is not divisible by `3` **OR** `5`
 
 ## Approach
 
@@ -77,13 +77,13 @@ Our function **MUST** meet the following conditions:
 
 Implement a new function which **MUST** meet the following conditions:
 
-- Receive a **number** to **count** up to
-- For each **number** starting from **1** up to the given **count**, call our Fizz Buzz function and **add** the result to an **array**
-- Return the **array**
+- Receive a `number` to **count** up to
+- For each `number` starting from `1` up to the given **count**, call our Fizz Buzz function and **add** the result to an `array`
+- Return the `array`
 
 **For example:**
 
-Given we pass in the **number 5**, we should receive the following **array**:
+Given we pass in the `number` `5`, we should receive the following `array`:
 
 ```javascript
 fizzBuzzArray(5); // [1, 2, "Fizz", 4, "Buzz"]
@@ -101,7 +101,7 @@ We have a starter `index.html` file containing **some** of the elements we'll ne
 
 We want to achieve the following goals:
 
-- When we type a **number** into the **input** and **click run** it should print out the **results** either comma delimited or a result per line within the provided **results** element as a **string**
+- When we type a `number` into the `<input />` and **click run** it should print out the **results** either comma delimited or a result per line within the provided **results** element as a `string`
 - When we **click run** again, the previous **results** are **replaced** with the new ones
 
 ## Approach
