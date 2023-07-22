@@ -71,6 +71,8 @@ Our function ***MUST*** meet the following conditions:
 3. Update your Fizz Buzz function to make the test ***pass***
 4. ***Repeat*** steps ***2*** and ***3*** until all test conditions are implemented and ***passing***
 
+>Run the tests every time you add a new test or update your production code
+
 # Exercise 2
 
 ## Fizz Buzz in an array
