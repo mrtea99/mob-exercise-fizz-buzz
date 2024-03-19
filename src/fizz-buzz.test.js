@@ -14,4 +14,8 @@ describe('Fizz Buzz', () => {
     // Act
     // Assert
   });
+  it('Returns "Fizz" if the number is divisible by 3', () => {
+    const result = fizzBuzz(9);
+    expect(result).toBe('Fizz');
+  });
 });
